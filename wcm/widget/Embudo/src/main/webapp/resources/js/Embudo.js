@@ -90,19 +90,19 @@ var HelloWorld = SuperWidget.extend({
 
         //En los siguientes bloques, se  agrega texto a la sección "personas alcanzadas" del widget, dependiendo de los datos obtenidos
         var e1=document.getElementById("e1");
-        e1.append(document.createTextNode("Primera Etapa: "+etapa1));
+        e1.append(document.createTextNode("Contacto: "+etapa1));
         
         var e2=document.getElementById("e2");
-        e2.append(document.createTextNode("Segunda Etapa: "+etapa2));
+        e2.append(document.createTextNode("Prospecto: "+etapa2));
         
         var e3=document.getElementById("e3");
-        e3.append(document.createTextNode("Tercera Etapa: "+etapa3));
+        e3.append(document.createTextNode("Oportunidad: "+etapa3));
         
         var e4=document.getElementById("e4");
-        e4.append(document.createTextNode("Cuarta Etapa: "+etapa4));
+        e4.append(document.createTextNode("Calificación: "+etapa4));
         
         var e5=document.getElementById("e5");
-        e5.append(document.createTextNode("Quinta Etapa: "+etapa5));
+        e5.append(document.createTextNode("Cierre: "+etapa5));
 
     }
 });
