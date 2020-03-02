@@ -6,7 +6,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-8" id="contenedorFunnel">
+            <div class="col-sm12 col-md-8 col-lg-8" id="contenedorFunnel" style="padding-top: 7px;">
                 <center>
                  <div style="width:500px;">
                     <svg id="svg1" height="120" width="500">
@@ -83,10 +83,10 @@
 
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-12 col-lg-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Personas alcanzadas por fase</h3>
+                        <h3 class="panel-title"><i class="fluigicon fluigicon-group icon-md"></i> Personas alcanzadas por fase</h3>
                     </div>
                     <div class="panel-body">
                         <ul class="list-group">

@@ -30,7 +30,7 @@ var HelloWorld = SuperWidget.extend({
         var etapa5 = records[ultimo].etapa5;
 
         //Valor default en pixeles de la altura de las figuras del funnel
-        var xInicial=80;
+        var xInicial=70;
         
         //En las siguientes variables se realiza un calculo para el aumento de altura para cada figura respecto a la altura default
         var aumento1=((etapa1-1)*10)+xInicial;
