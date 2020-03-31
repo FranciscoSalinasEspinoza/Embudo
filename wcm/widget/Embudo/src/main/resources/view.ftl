@@ -6,7 +6,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-sm12 col-md-8 col-lg-8" id="contenedorFunnel" style="padding-top: 7px;">
+            <div class="col-sm-12 col-md-8 col-lg-8" id="contenedorFunnel" style="padding-top: 7px;">
                 <center>
                  <div style="width:500px;">
                     <svg id="svg1" height="120" width="500">
@@ -16,8 +16,17 @@
                           <stop offset="100%" style="stop-color:rgb(43, 130, 102);stop-opacity:1"/>
                         </linearGradient>
                       </defs>
-                      <polygon id="p1" points="0,0 500,0 450,120 50,120 " style="fill:url(#grad1); " />
+                      <polygon id="p1" points="0,0 0,0 0,0 0,0 " style="fill:url(#grad1); " />
                       Sorry, your browser does not support inline SVG.
+                      <animate
+                        id="a1"; 
+                        xlink:href="#p1"
+                        attributeName="points"
+                        from="0,0 0,0 0,0 0,0"
+                        to="0,0 0,0 0,0 0,0"  
+                        dur="1s"
+                        begin="0s"
+                        fill="freeze" />
                     </svg>
                     </div>
                     <div style="width: 450px;">
@@ -29,8 +38,17 @@
                           <stop offset="100%" style="stop-color:rgb(38, 106, 115);stop-opacity:1"/>
                         </linearGradient>
                       </defs>
-                      <polygon id="p2" points="25,0 425,0 375,100 75,100" style="fill:url(#grad2); " />
+                      <polygon id="p2" points="0,0 0,0 0,0 0,0" style="fill:url(#grad2); " />
                       Sorry, your browser does not support inline SVG.
+                      <animate
+                      id="a2"; 
+                      xlink:href="#p2"
+                      attributeName="points"
+                      from="0,0 0,0 0,0 0,0"
+                      to="0,0 0,0 0,0 0,0" 
+                      dur="1s"
+                      begin="a1.end"
+                      fill="freeze" />
                       
                     </svg>
                    
@@ -45,8 +63,17 @@
                           <stop offset="100%" style="stop-color:rgb(30, 47, 89);stop-opacity:1"/>
                         </linearGradient>
                       </defs>
-                      <polygon id="p3" points="50,0 350,0 300,100 100,100" style="fill:url(#grad3); " />
+                      <polygon id="p3" points="0,0 0,0 0,0 0,0" style="fill:url(#grad3); " />
                       Sorry, your browser does not support inline SVG.
+                      <animate
+                      id="a3"; 
+                      xlink:href="#p3"
+                      attributeName="points"
+                      from="0,0 0,0 0,0 0,0"
+                      to="0,0 0,0 0,0 0,0" 
+                      dur="1s"
+                      begin="a2.end"
+                      fill="freeze" />
                     </svg>
         
                     </div>
@@ -60,8 +87,17 @@
                           <stop offset="100%" style="stop-color:rgb(24, 58, 73);stop-opacity:1"/>
                         </linearGradient>
                       </defs>
-                      <polygon id="p4" points="75,0 275,0 275,100 75,100" style="fill:url(#grad4); " />
+                      <polygon id="p4" points="0,0 0,0 0,0 0,0" style="fill:url(#grad4); " />
                       Sorry, your browser does not support inline SVG.
+                      <animate
+                      id="a4"; 
+                      xlink:href="#p4"
+                      attributeName="points"
+                      from="0,0 0,0 0,0 0,0"
+                      to="0,0 0,0 0,0 0,0" 
+                      dur="1s"
+                      begin="a3.end"
+                      fill="freeze" />
                     </svg>
         
                 </div>
@@ -76,8 +112,17 @@
                           <stop offset="100%" style="stop-color:rgb(13, 21, 38);stop-opacity:1"/>
                         </linearGradient>
                       </defs>
-                      <polygon id="p5" points="75,0 275,0 275,100 75,100" style="fill:url(#grad5); " />
+                      <polygon id="p5" points="0,0 0,0 0,0 0,0" style="fill:url(#grad5); " />
                       Sorry, your browser does not support inline SVG.
+                      <animate
+                      id="a5"; 
+                      xlink:href="#p5"
+                      attributeName="points"
+                      from="0,0 0,0 0,0 0,0"
+                      to="0,0 0,0 0,0 0,0" 
+                      dur="1s"
+                      begin="a4.end"
+                      fill="freeze" />
                     </svg>
                     </div>
 

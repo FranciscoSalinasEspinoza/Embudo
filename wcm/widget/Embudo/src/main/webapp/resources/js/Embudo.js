@@ -51,41 +51,68 @@ var HelloWorld = SuperWidget.extend({
         svg1.setAttribute("height",aumento1);
 
         //se obtiene la figura
-        var p1=document.getElementById("p1");
+        var a1=document.getElementById("a1");
 
+          //Se le remueven las coordenadas
+        a1.removeAttribute("from");
+
+          //Se agregran las nuevas coordenadas
+        a1.setAttribute("from", "0,0 500,0 450,0 50,0");
         //Se le remueven las coordenadas
-        p1.removeAttribute("points");
+        a1.removeAttribute("to");
 
         //Se agregran las nuevas coordenadas
-        p1.setAttribute("points", "0,0 500,0 450,"+aumento1+" 50,"+aumento1);
+        a1.setAttribute("to", "0,0 500,0 450,"+aumento1+" 50,"+aumento1);
 
         var svg1=document.getElementById("svg2");
         svg1.removeAttribute("height");
         svg1.setAttribute("height",aumento2);
-        var p2=document.getElementById("p2");
+        /* var p2=document.getElementById("p2");
         p2.removeAttribute("points");
-        p2.setAttribute("points", "25,0 425,0 375,"+aumento2+" 75,"+aumento2)
+        p2.setAttribute("points", "25,0 425,0 375,"+aumento2+" 75,"+aumento2) */
+        var a2=document.getElementById("a2");
+        a2.removeAttribute("from");
+        a2.setAttribute("from", "25,0 425,0 375,0 75,0");
+        a2.removeAttribute("to");
+        a2.setAttribute("to", "25,0 425,0 375,"+aumento2+" 75,"+aumento2);
 
         var svg1=document.getElementById("svg3");
         svg1.removeAttribute("height");
         svg1.setAttribute("height",aumento3);
-        var p3=document.getElementById("p3");
+        /* var p3=document.getElementById("p3");
         p3.removeAttribute("points");
-        p3.setAttribute("points", "50,0 350,0 300,"+aumento3+" 100,"+aumento3)
+        p3.setAttribute("points", "50,0 350,0 300,"+aumento3+" 100,"+aumento3) */
+        var a3=document.getElementById("a3");
+        a3.removeAttribute("from");
+        a3.setAttribute("from", "50,0 350,0 300,0 100,0");
+        a3.removeAttribute("to");
+        a3.setAttribute("to", "50,0 350,0 300,"+aumento3+" 100,"+aumento3);
 
         var svg1=document.getElementById("svg4");
         svg1.removeAttribute("height");
         svg1.setAttribute("height",aumento4);
-        var p4=document.getElementById("p4");
+       /*  var p4=document.getElementById("p4");
         p4.removeAttribute("points");
-        p4.setAttribute("points", "75,0 275,0 275,"+aumento4+" 75,"+aumento4)
+        p4.setAttribute("points", "75,0 275,0 275,"+aumento4+" 75,"+aumento4) */
+        var a4=document.getElementById("a4");
+        a4.removeAttribute("from");
+        a4.setAttribute("from", "75,0 275,0 275,0 75,0");
+        a4.removeAttribute("to");
+        a4.setAttribute("to", "75,0 275,0 275,"+aumento4+" 75,"+aumento4);
 
         var svg1=document.getElementById("svg5");
         svg1.removeAttribute("height");
         svg1.setAttribute("height",aumento5);
-        var p5=document.getElementById("p5");
+       /*  var p5=document.getElementById("p5");
         p5.removeAttribute("points");
-        p5.setAttribute("points", "75,0 275,0 275,"+aumento5+" 75,"+aumento5)
+        p5.setAttribute("points", "75,0 275,0 275,"+aumento5+" 75,"+aumento5) */
+        var a5=document.getElementById("a5");
+        a5.removeAttribute("from");
+        a5.setAttribute("from", "75,0 275,0 275,0 75,0");
+        a5.removeAttribute("to");
+        a5.setAttribute("to", "75,0 275,0 275,"+aumento5+" 75,"+aumento5);
+
+
         //Fin de asignación de nuevas alturas
 
         //En los siguientes bloques, se  agrega texto a la sección "personas alcanzadas" del widget, dependiendo de los datos obtenidos
